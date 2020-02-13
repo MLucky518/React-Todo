@@ -7,11 +7,13 @@ function TodoList(props) {
   console.log(props);
   return (
     <div className="todo-container">
+      
       {props &&
         props.tasks.map(task => {
-          return <Todo key={task} task={task} />;
+          return <Todo key={task.id} task={task} toggleFinished = {props.toggleFinished}/>;
         })}
-        <button>hi</button>
+        
+        
     </div>
   );
 }
