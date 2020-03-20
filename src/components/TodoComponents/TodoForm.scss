@@ -1,0 +1,21 @@
+.todo-form-container{
+    border:1px solid red;
+    width:100%;
+    height:55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    input{
+        border-color: rgba(253, 243, 147, 0.849);;
+        
+    }
+
+    label{
+        font-size:2rem;
+        margin-bottom: 2%;
+        color:rgba(253, 243, 147, 0.849);;
+    }
+   
+}
